@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    width: 1140px;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+.main-title{
+    background-color: #00008B;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.main-title h1{
+    font-size: 120px;
+    color: aliceblue;
+}
+
+.main-title span{
+    font-style: italic;
+    font-size: 80px;
+}
+
+.main-form{
+    position: absolute;
+    top: 27%;
+    margin-left: 250px;
+}
+
+.main-form ul{
+    list-style: none;
+}
+
+.main-form li{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.main-form li select{
+    width: 550px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.btn{
+    width: 250px;
+    height: 55px;
+    font-size: 25px;
+    background-color: #00008B;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.form-img{
+    position: absolute;
+    top: 33%;
+    right: 16%;
+}
+
+.form-img img{
+    width: 500px;
+}
+
+.form-ans h2{
+    font-size: 40px;
+}

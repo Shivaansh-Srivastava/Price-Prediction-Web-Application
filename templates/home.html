@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../static/styles/style.css">
+    </head>
+    <body>
+        <div class="main-title row">
+            <h1>Thrift-Shop <span>Analysis</span></h1>
+        </div>
+        <div class="form-img">
+            <img src="../static/Images/tsa.png">
+        </div>
+            <form action="/predict" method="POST" class="main-form">
+                <ul class="form-list">
+                    <li>
+                        <h2>Select the Category</h2>
+                        <select name="category" id="cat_sel">
+                            <option value="select">Select</option>
+                            <option value="Furniture">Furniture</option>
+                            <option value="Fashion">Fashion</option>
+                            <option value="Books">Books</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Sports">Sports</option>
+                        </select>
+                    </li>
+                    <li>
+                        <h2>Select Sub Category</h2>
+                        <select name="sub_category" id="sub_cat">
+                            <option value="select">Select</option>
+                            <option value="Chair">Chair</option>
+                            <option value="Table">Table</option>
+                            <option value="Bed">Bed</option>
+                            <option value="Home Appliances">Home Appliances</option>
+                            <option value="Smartphone">Smart Phones</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Fiction">Fiction</option>
+                            <option value="Non-Fiction">Non-Fiction</option>
+                            <option value="Upper">Upper</option>
+                            <option value="Lowers">Lowers</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </li>
+                    <li>
+                        <h2>Is your Product Branded?</h2>
+                        <select name="branded" id="branded_sel">
+                            <option value="select">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" class="btn">
+                    </li>
+                    <li class="form-ans">
+                        <h2>{{ price }}</h2>
+                    </li>
+                </ul>
+            </form>
+    </body>
+</html>
